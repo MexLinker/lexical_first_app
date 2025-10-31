@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(powershell:*)",
+      "Bash(npm install:*)",
+      "Bash(PORT=3001 node:*)",
+      "Bash(EXPO_PUBLIC_API_URL=http://localhost:3001 npx expo start:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

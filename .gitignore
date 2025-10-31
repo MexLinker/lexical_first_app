@@ -1,0 +1,25 @@
+# Top-level ignore rules for the entire project
+
+# macOS
+.DS_Store
+
+# Archives and logs
+*.zip
+*.log
+
+# Node
+node_modules/
+backend/node_modules/
+lexical-expo-app/node_modules/
+
+# Environment files
+.env
+backend/.env
+
+# Expo caches and artifacts
+lexical-expo-app/.expo/
+lexical-expo-app/dist/
+lexical-expo-app/.cache/
+
+# Git
+.git/
